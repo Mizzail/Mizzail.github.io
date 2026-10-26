@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Globus2.0 — приложения для Android</title>
+<meta name="description" content="Приложения разработчика Globus2.0 (ИП Лобанов М. В.) для Android в RuStore: «Мой стиль», AquaHabit, «Выживание в ЧС».">
+<style>
+  :root{
+    --bg:#f6f6f8; --card:#ffffff; --text:#1d1e23; --muted:#5f626b; --line:#e3e4e8;
+    --accent:#2f3138; --accent-text:#f4f4f6; --gold:#b08d57;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#141518; --card:#1f2025; --text:#f4f4f6; --muted:#a3a6ae; --line:#2e3036;
+      --accent:#f4f4f6; --accent-text:#1d1e23; --gold:#d2b07a;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:40px 16px 56px}
+  header h1{margin:0;font-size:32px;letter-spacing:-.5px}
+  header p{margin:6px 0 0;color:var(--muted)}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin:40px 0 14px}
+  .apps{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;
+        display:flex;flex-direction:column;gap:10px}
+  .card.main{grid-column:1/-1;border-color:var(--gold)}
+  .card h3{margin:0;font-size:20px}
+  .head{display:flex;align-items:center;gap:14px}
+  .head img{width:56px;height:56px;border-radius:14px;flex:none;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+  .card.main .head img{width:72px;height:72px;border-radius:18px}
+  .card.main h3{font-size:24px}
+  .tag{font-size:12px;color:var(--gold);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+  .card p{margin:0;color:var(--muted)}
+  .btn{align-self:flex-start;margin-top:6px;background:var(--accent);color:var(--accent-text);
+       text-decoration:none;font-weight:600;padding:10px 18px;border-radius:999px}
+  .btn:hover{opacity:.88}
+  .contacts p{margin:4px 0}
+  a{color:inherit}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Globus2.0</h1>
+    <p>Приложения для Android. Публикуемся в RuStore.</p>
+  </header>
+
+  <h2>Приложения</h2>
+  <div class="apps">
+    <div class="card main">
+      <span class="tag">Новое</span>
+      <div class="head"><img src="icons/mystile.png" alt=""><h3>Мой стиль</h3></div>
+      <p>Подбор образов из твоего гардероба и примерка на виртуальной модели. Виртуальный стилист собирает образы под повод: прогулка, офис, вечер, праздник.</p>
+      <a class="btn" href="https://www.rustore.ru/catalog/app/ru.mystile.app">Открыть в RuStore</a>
+    </div>
+    <div class="card">
+      <div class="head"><img src="icons/aquahabit.png" alt=""><h3>AquaHabit</h3></div>
+      <p>Трекер воды: напоминания и учёт выпитого за день.</p>
+      <a class="btn" href="https://www.rustore.ru/catalog/app/ru.aquahabit.tracker">Открыть в RuStore</a>
+    </div>
+    <div class="card">
+      <div class="head"><img src="icons/survival.png" alt=""><h3>Выживание в ЧС</h3></div>
+      <p>Справочник действий в чрезвычайных ситуациях — работает без интернета.</p>
+      <a class="btn" href="https://www.rustore.ru/catalog/app/com.survivalguide.app">Открыть в RuStore</a>
+    </div>
+  </div>
+
+  <h2>Контакты</h2>
+  <div class="contacts">
+    <p>Почта: <a href="mailto:cursorhands@mail.ru">cursorhands@mail.ru</a></p>
+    <p>Политика конфиденциальности «Мой стиль»: <a href="https://api.mystile.ru/privacy">api.mystile.ru/privacy</a></p>
+  </div>
+
+  <footer>© 2026 Globus2.0 (ИП Лобанов М. В.)</footer>
+</div>
+</body>
+</html>
