@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Globus2.0 — приложения для Android</title>
-<meta name="description" content="Приложения разработчика Globus2.0 (ИП Лобанов М. В.) для Android в RuStore: «Мой стиль», «Моя норма», «Выживание в ЧС».">
+<meta name="description" content="Приложения разработчика Globus2.0 (ИП Лобанов М. В.) для Android в RuStore: «Мой стиль», «Самогипноз», «Коды ошибок БТ», «Моя норма», «Выживание в ЧС».">
 <style>
   :root{
     --bg:#f6f6f8; --card:#ffffff; --text:#1d1e23; --muted:#5f626b; --line:#e3e4e8;
@@ -39,6 +39,9 @@
   .btn:hover{opacity:.88}
   .contacts p{margin:4px 0}
   a{color:inherit}
+  .card.donate{flex-direction:row;gap:22px;align-items:center;flex-wrap:wrap}
+  .card.donate img{width:160px;height:160px;border-radius:12px;background:#fff;padding:6px;flex:none}
+  .card.donate .txt{flex:1;min-width:220px;display:flex;flex-direction:column;gap:8px}
   footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 </style>
 </head>
@@ -58,6 +61,18 @@
       <a class="btn" href="https://www.rustore.ru/catalog/app/ru.mystile.app">Открыть в RuStore</a>
     </div>
     <div class="card">
+      <span class="tag">Новое</span>
+      <div class="head"><img src="icons/selfhypnosis.png" alt=""><h3>Самогипноз</h3></div>
+      <p>Курс из 6 уроков самогипноза: голосовые сеансы с женским или мужским голосом, фоновая музыка, дневник практик. Работает без интернета.</p>
+      <a class="btn" href="https://www.rustore.ru/catalog/app/ru.mizzail.selfhypnosis">Открыть в RuStore</a>
+    </div>
+    <div class="card">
+      <span class="tag">Новое</span>
+      <div class="head"><img src="icons/errorcodes.png" alt=""><h3>Коды ошибок БТ</h3></div>
+      <p>Что означает код ошибки газового котла или стиральной машины и что делать.</p>
+      <a class="btn" href="https://www.rustore.ru/catalog/app/ru.manualhub.repairs">Открыть в RuStore</a>
+    </div>
+    <div class="card">
       <div class="head"><img src="icons/aquahabit.png" alt=""><h3>Моя норма</h3></div>
       <p>Трекер воды, калорий и привычек.</p>
       <a class="btn" href="https://www.rustore.ru/catalog/app/ru.aquahabit.tracker">Открыть в RuStore</a>
@@ -66,6 +81,15 @@
       <div class="head"><img src="icons/survival.png" alt=""><h3>Выживание в ЧС</h3></div>
       <p>Справочник действий в чрезвычайных ситуациях — работает без интернета.</p>
       <a class="btn" href="https://www.rustore.ru/catalog/app/com.survivalguide.app">Открыть в RuStore</a>
+    </div>
+  </div>
+
+  <h2>Поддержать разработчика</h2>
+  <div class="card donate">
+    <img src="icons/donate_qr.png" alt="QR-код для поддержки разработчика">
+    <div class="txt">
+      <p>Если приложения вам пригодились — можно поддержать разработку любой суммой. Наведите камеру телефона на QR-код или нажмите кнопку.</p>
+      <a class="btn" href="https://yoomoney.ru/to/4100119411538004">☕ Поддержать</a>
     </div>
   </div>
 
